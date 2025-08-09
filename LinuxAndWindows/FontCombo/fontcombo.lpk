@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="FontCombo"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="StoFlow (Pseudonym)"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="0"/>
+        </Optimizations>
+      </CodeGeneration>
+    </CompilerOptions>
+    <Description Value="Simple combobox that allows to select a font from the list"/>
+    <License Value="see Lazarus/Free Pascal"/>
+    <Version Minor="3"/>
+    <Files>
+      <Item>
+        <Filename Value="fontcomboImpl.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FontComboImpl"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="IDEIntf"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
